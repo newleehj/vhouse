@@ -29,3 +29,35 @@ $(function () {
 
     });
 });
+$(function(){
+    // 
+    var duration = 300;
+
+    // images ----------------------------------------
+    var $images = $('#images p');
+
+    // images 첫번째 이미지
+    $images.filter(':nth-child(1)')
+        .on('mouseover', function(){
+            $(this).find('strong, span').stop(true).animate({opacity: 1}, duration);
+        })
+        .on('mouseout', function(){
+            $(this).find('strong, span').stop(true).animate({opacity: 0}, duration);
+        });
+    // $images.filter(':nth-child(2)')
+    //     .on('mouseover', function(){
+    //         $(this).find('strong, span').stop(true).animate({opacity: 1}, duration);
+    //     })
+    //     .on('mouseout', function(){
+    //         $(this).find('strong, span').stop(true).animate({opacity: 0}, duration);
+    //     });
+    // $images.filter(':nth-child(3)')
+    //     .on('mouseover', function(){
+    //         $(this).find('strong, span').stop(true).animate({opacity: 1}, duration);
+    //     })
+    //     .on('mouseout', function(){
+    //         $(this).find('strong, span').stop(true).animate({opacity: 0}, duration);
+    //     });
+
+   
+});

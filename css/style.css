@@ -59,17 +59,33 @@ body {
     width:12%;
     margin-top:1%;
 }
-/* 메인영역 회사소개 .mintro */
+/* 메인영역 회사소개 .book */
 .page-main {
-    width:100%;
+    width: 100%;
+    background:rgba(221, 221, 221, 0.144);
 }
-.mintro {
-    /* 반응형 전환 시 길이 수정 */
+#book {
     width:1300px;
-    margin:10% auto;
+    margin:0 auto;
 }
-.mintro img {
-    width:80%;
-    margin-left:10%;
-    border-radius:10px;
+.booktitle {
+    font-size:20px;
 }
+.bookimg1 {
+    width:250px;
+    margin:150px 10px 100px 100px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.booktext1 {
+    display:block;
+    background:rgba(167, 167, 167, 0.486);
+    color:#000;
+    width:250px;
+    font-weight:bold;
+}
+
+
+
+
+
