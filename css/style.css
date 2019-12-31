@@ -8,49 +8,68 @@ body {
     color:rgb(49, 49, 49);
     font-family:'Nanum Gothic', sans-serif;
 }
+/* aside 영상 */
+#videowrap {
+    /* 반응형 전환 시 길이 수정 */
+    width:1300px;
+    margin:0 auto;
+}
 /* header 고정하기 */
 .page-header {
     background-color:#fff;
-    position: absolute;
-    width: 100%;
-    min-width:1200px;
+    position:absolute;
+    width:100%;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.102);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.102);
 }
 .page-header.sticky {
     position: fixed;
-    top: 0;
+    top:0;
 }
 .page-header > .inner {
-    margin: auto;
-    width: 1200px;
+    margin:auto;
+    /* 반응형 전환 시 길이 수정 */
+    width:1200px; 
 }
 /* header 로고,메뉴 */
 .logo img {
-    width:300px;
+    width:25%;
     float:left;
     margin:0 80px 5px 0;
 }
 .menu {
     float:left;
+    width:50%;
 }
 .menu > ul > li {
     display:inline-block;
-    height:60px;
-    line-height:70px;
-    margin-right:40px;
+    margin:4% 8% 0 0;
 }
 .menu > ul > li > a {
+    display:block;
     font-size:16px;
     color:rgb(49, 49, 49);
     font-weight:bolder;
-    padding:0 2px;
 }
 .menu > ul > li > a:hover {
     border-bottom:3px solid rgb(255, 136, 0);
 }
 /* header 비타민하우스 몰 바로가기 */
 .malllink img {
-    width:150px;
-    margin:10px 10px 0 120px;
+    width:12%;
+    margin-top:1%;
+}
+/* 메인영역 회사소개 .mintro */
+.page-main {
+    width:100%;
+}
+.mintro {
+    /* 반응형 전환 시 길이 수정 */
+    width:1300px;
+    margin:10% auto;
+}
+.mintro img {
+    width:80%;
+    margin-left:10%;
+    border-radius:10px;
 }
